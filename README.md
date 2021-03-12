@@ -45,7 +45,7 @@ _LANGUAGES_
 
 * Javascript
 
-*Bootstrap
+* Bootstrap
 
 
 ### CONTACT INFORMATION

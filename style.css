@@ -1,6 +1,7 @@
 .jumbo{
    color: black;
   text-align: center;
+  background-color: white;
 }
 container input {
   position: absolute;
@@ -14,7 +15,5 @@ form{
   border: 1px solid black;
   padding: 20px 20px 20px 20px ;
 }
-.amount{
-  ]width: 200px;
-}
+
 

@@ -77,6 +77,8 @@ var quantity = document.getElementById('pizzaNumber').value;
     switch (pizzaDelivery) {
     
       case 0:      pizzaDelivery=300;
+                  
+                   
                          break;
 
       case 1:        pizzaDelivery= 0;
@@ -85,9 +87,15 @@ var quantity = document.getElementById('pizzaNumber').value;
         
          }
 
+ if(pizzaDelivery == 0){
+   alert("Your order will be3 deilvered to your location.");
+
+ }
+
   var total = (pizzaCrust + pizzaDelivery + pizzaSize + pizzaTopping) * quantity;
 
   document.getElementById('total').innerHTML = total;
+
 
 });
 

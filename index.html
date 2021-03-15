@@ -33,17 +33,16 @@
     </p>
   </div>
 </div>
-<div class="container">
+<div class="container-fluid">
   <h2></h2>  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
+
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
 
-    <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
         <img src="pizza1.jpg" alt="oven" style="width:100%;">
@@ -58,7 +57,6 @@
       </div>
     </div>
 
-    <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
@@ -68,7 +66,45 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-</div>
+</div> 
+
+
+<div class="container">
+  <form >
+  <div class="mb-3">
+    <label for="size">Select The Pizza Size</label>
+    <select id="pizzaSize" class="form-control" required>
+      <option value="">...</option>
+      <option value="large">Large</option>
+      <option value="medium">Medium</option>
+      <option value="small">Small</option>
+    </select>
+  </div>
+
+  <div class="mb-2">
+    <label for="crust">Select Your Preferred Crust</label>
+    <select class="form-control" id="crust" required>
+      <option value="">...</option>
+      <option value="crispy">Crispy</option>
+      <option value="stuffed">Stuffed</option>
+      <option value="gluten-free">Gluten-free</option>
+      <option value="thin">Thin</option>
+    </select>
+  </div>
+
+  <div class="mb-2">
+    <label for="topping">Select Your Preferred Topping</label>
+    <select class="form-control" id="topping" required>
+      <option value="">...</option> 
+      <option value="pepperoni">Pepperoni</option>
+       <option value="sausages">Sausages</option>
+      <option value="mushrooms">Mushrooms</option>
+      <option value="extra">Extra Cheese</option>
+      <option value="pineapples">Pineapples</option>
+      <option value="salami">Salami</option>
+    </select>
+  </div>
+</form>
 
 </body>
 </html>

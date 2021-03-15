@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Pizza Pap</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -77,7 +77,7 @@
   <div class="mb-3">
     <label for="size">Select The Pizza Size</label>
     <select id="pizzaSize" class="form-control" required>
-      <option value="">...</option>
+  
       <option value="large">Large</option>
       <option value="medium">Medium</option>
       <option value="small">Small</option>
@@ -87,7 +87,7 @@
   <div class="mb-2">
     <label for="crust">Select Your Preferred Crust</label>
     <select class="form-control" id="crust" required>
-      <option value="">...</option>
+     
       <option value="thin">Thin</option>
       <option value="crispy">Crispy</option>
       <option value="stuffed">Stuffed</option>
@@ -99,7 +99,7 @@
   <div class="mb-2">
     <label for="topping">Select Your Preferred Topping</label>
     <select class="form-control" id="topping" required>
-      <option value="">...</option> 
+     
       <option value="pepperoni">Pepperoni</option>
        <option value="sausages">Sausages</option>
       <option value="mushrooms">Mushrooms</option>
@@ -112,24 +112,23 @@
 <div class="mb-3">
   <label for="delivery">Would You Like Your Pizza Delivered?</label>
   <select id="delivery" class="form-control" required>
-    <option value="">...</option>
+
     <option value="yes">Yes</option>
     <option value="no">No</option>
   </select>
 </div>
 <br>
 <br>
-<div class="amount"> 
   <label for="quantity">How Many Pizzas Do You Want?" </label>
-  <input type="number" name="quantity" min="1" id="quantity">
-</div>
+  <input type="number" name="quantity" id="pizzaNumber">
 <br>
 <br>
 <input type="submit" class="btn btn-success" value="Submit" id="submit">
-
+<br><br>
+<span>Total Ksh:  </span>
+<br><br>
   <div id="total">
     <p class="total-amount hidden">
-      Total: Ksh. <span id="total-amount"></span>
     </p>
   </div>
 </form>

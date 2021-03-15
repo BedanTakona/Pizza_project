@@ -5,7 +5,7 @@ var pizzaSize = document.getElementById('pizzaSize').selectedIndex;
 var pizzaCrust = document.getElementById('crust').selectedIndex;
 var pizzaTopping = document.getElementById('topping').selectedIndex;
 var pizzaDelivery = document.getElementById('delivery').selectedIndex; 
-var amount = document.getElementById('amount');
+var quantity = document.getElementById('pizzaNumber').value;
 
 
     switch (pizzaSize) {
@@ -18,10 +18,29 @@ var amount = document.getElementById('amount');
 
       case 2: pizzaSize=350;
                      break;
+      
+      
         
   
                 
           
+  }
+  switch(pizzaCrust){
+
+    case 0 : pizzaCrust = 150 ; 
+            break;
+
+    case 1 : pizzaCrust = 175 ; 
+            break;
+
+    case 2 : pizzaCrust = 200 ; 
+            break;
+
+    case 3 : pizzaCrust = 100 ; 
+            break;
+    
+    
+
   }
 
 
@@ -53,7 +72,7 @@ var amount = document.getElementById('amount');
    
                 
           
-  };
+  }
 
     switch (pizzaDelivery) {
     
@@ -64,9 +83,9 @@ var amount = document.getElementById('amount');
                          break;
 
         
-         };
+         }
 
-  var total = (pizzaCrust + pizzaDelivery + pizzaSize + pizzaTopping)*amount;
+  var total = (pizzaCrust + pizzaDelivery + pizzaSize + pizzaTopping) * quantity;
 
   document.getElementById('total').innerHTML = total;
 

@@ -91,7 +91,8 @@ var quantity = document.getElementById('pizzaNumber').value;
 
   document.getElementById('total').innerHTML = total;
 
-  
+//alert will be displayed if user chooses delivery option.
+
 if(pizzaDelivery == 300){
   alert("Your order will be delivered to your location");
 }

@@ -7,11 +7,13 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-inverse">
+    <nav class="navbar navbar-inverse navigation">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-text" href="#">Pizza Pap</a>
@@ -71,8 +73,8 @@
 <br>
 <br>
 
-
-<div class="container">
+<div class="container-fluid main">
+<div class="container stage">
   <form >
     <h2 style="text-align: center;">Place Your Order</h2>
   <div class="mb-3">
@@ -125,7 +127,7 @@
 <input type="text" id="deiverylocation" name="deliverylocation"> 
 <br><br>  
 <label for="quantity">How Many Pizzas Do You Want? :" </label>
-<input type="number" name="quantity" id="pizzaNumber">
+<input type="number" name="quantity" id="pizzaNumber" required>
 </div>
 <br>
 <br>
@@ -138,6 +140,21 @@
     </p>
   </div>
 </form>
+</div>
+</div>
+<br><br><br>
+<div class="container-fluid">
+  <footer>
+    <h4 style="text-align: center;">Contact Us</h4>
+    <p>
+      Contact : 0712-345-678
+      <br>
 
+      Email : pizzapap@co.ke
+    </p>
+  </footer>
+</div>
+
+</div>
 </body>
 </html>

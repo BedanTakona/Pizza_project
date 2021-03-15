@@ -6,7 +6,7 @@
 # BEDAN TAKONA
 
 ## PROJECT DESCRIPTION
-This project is a pizza ordering system that where a user can pick his/her preferred toppings and order for delivery or eat in.
+This project is a pizza ordering system where a user can pick his/her preferred toppings, pizza size, pizza crust and order for delivery or eat in.
  
 
  
